@@ -1,0 +1,19 @@
+<div class="container">
+    <!--<div linear-chart chart-data="{{data}}" id='linear-chart'></div>-->
+    <div>
+        <canvas id="line" class="chart chart-line" chart-data="json.data" chart-colours="json.colours"
+          chart-labels="json.labels" chart-legend="true" chart-series="series" options="lineOptions">
+        </canvas> 
+    </div>
+    
+    <div>
+        <canvas id="doughnut" class="chart chart-doughnut"
+          chart-data="doughnutData" chart-labels="doughnutLabel" chart-series="doughnutSeries">
+        </canvas> 
+    </div>
+    <div>
+        <canvas id="bar" class="chart chart-bar"
+          chart-data="barData" chart-labels="barLabels" chart-series="barSeries"
+        </canvas
+    </div>
+</div>

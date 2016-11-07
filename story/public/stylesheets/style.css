@@ -1,0 +1,140 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #252830;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* HEADER */
+#header {
+  color: #cfd2da;
+  text-align: center;
+  width: 100%;
+  min-height: 250px;
+  cursor: pointer;
+}
+
+#title-text { 
+  margin-top: 50px;
+  font-size: 4em;
+}
+
+.text-color {
+  color: #fff;
+}
+
+.list-background-color {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 0px;
+}
+
+.item-align {
+  vertical-align: middle;
+}
+
+.paddingAround {
+  min-height: 20px;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  text-align: right;
+}
+
+.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  color: white;
+  pointer-events: none;
+}
+
+.back-to-top {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 45px;
+    height: 45px;
+    border-radius: 2em;
+    margin: 0; 
+    position: fixed;
+    bottom: 120px;
+    right: 30px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    pointer: cursor;
+}
+
+.back-to-top-content {
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.add-sentence {
+    background-color: #f08080;
+    width: 45px;
+    height: 45px;
+    border-radius: 2em;
+    margin: 0; 
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.add-sentence-content {
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.visualise-story {
+    background-color: #8fbc8f;
+    width: 45px;
+    height: 45px;
+    border-radius: 2em;
+    margin: 0; 
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    z-index: 100;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.visualise-story-content {
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.fixed-textbox-alignment {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+#error-msg {
+  color: red;
+}
